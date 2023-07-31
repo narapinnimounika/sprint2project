@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <!-- Navbar of Add Product page begins here -->
+    <div class="container" id="nav ">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar-light bg-light navbar navbar-expand-sm ">
+                    <a href="index.html">
+                        <img src="./images/toyslogo.jpeg" alt="kids toys logo" height="80">
+                    </a>
+                    <a class="nav-link active" href="index.html">HOME</a>
+                    <a class="nav-link" href="ViewProduct.html">ViewProduct</a>
+                    <a class="nav-link" href="shopbycharacter.html">ShopByCharacter</a>
+                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </nav>
+            </div>
+        </div>
+    </div><br>
+    <!-- Navbar of Add Product ends here -->
+
+
     <title>Item Form</title>
 </head>
 
@@ -27,12 +47,12 @@
                         <label for="newItemDescription">Description</label>
                         <textarea type="text" class="form-control" id="newItemDescription"></textarea>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="newItemImageUrl">Image URL</label>
                         <input type="text" class="form-control" id="newItemImageUrl">
-                    </div>                    
-                    
+                    </div>
+
                     <button type="submit" class="btn btn-primary btn-block">Save Item</button>
                 </form>
             </div>
@@ -52,4 +72,5 @@
     <script src="js/ItemsController.js"></script>
     <script src="js/Add Product.js"></script>
 </body>
+
 </html>

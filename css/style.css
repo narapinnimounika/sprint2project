@@ -1,250 +1,198 @@
-
-#nav.container{
-    text-decoration : none;
-      height:900%;
-      width: 1000%;
-      padding-top: 3%;
-      position: static;
-  }
-  body
-        {
-          margin-left:20px;
-          margin-right:20px;
-        }
-  
-  h4 {
-  color:blueviolet;
-  }
-   #age .col {
-      border: 1PX NONE coral;
-      position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;;
-      color: darkmagenta;
-      background-color: antiquewhite;
-  
-      }
-  
-      
-      #a1{
-        background-color:darkmagenta;
-        border: 1PX NONE coral;
-      position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: white;
-      
-      }
-      #cart p{
-        text-align: right;
-        
-      }
-      #a2{
-        background-color: darkred;
-        border: 1PX NONE coral;
-      position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: white;
-      }
-  
-      #a3
-      {
-        background-color: green;
-        border: 1PX NONE coral;
-         position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: darkmagenta;
-          color: white;
-      }
-      #a4
-      {
-        background-color:darkorange ;
-        border: 1PX NONE coral;
-         position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: darkmagenta;
-          color: white;
-      }
-      #a5
-      {
-        background-color: darkcyan;
-        border: 1PX NONE coral;
-         position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: darkmagenta;
-          color: white;
-      }
-      #a6
-      {
-        background-color: darkgray;
-        border: 1PX NONE coral;
-         position: static;
-      float: left;
-      display: block;
-      word-spacing: normal;
-      width: 1000px;
-      color: darkmagenta;
-          color: white;
-      }
-      #age .row {
-          border: 3px none coral ;
-          text-indent: 50px;
-          word-spacing: 30px;
-          white-space: nowrap;
-          display: flex;
-          width: auto;
-        }
-        #shop .col{
-          border: 3px none coral ;
-          text-indent: 50px;
-          word-spacing: 30px;
-          white-space: nowrap;
-          display: flex;
-          width: auto;
-        }
-        
-#nav.container{
-  text-decoration : none;
-    height:900%;
-    width: 1000%;
-    padding-top: 3%;
-    position: static;
+body {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-      
-      
-        .column {
-          flex: 33.33%;
-          padding: 5px;
-        }
-      
-      #drodp .drop {
-          display: block;
-          width: 150px;
-          color: #009;
-          background-color: aqua;
-          position: relative;
-  
-      }
-      
-      #f1{
-        list-style-type: none;
-        text-align: left;
-        float: left;
-        
-      }
-      #f2{
-        list-style-type: none;
-        text-align: center;
-        padding-bottom: 10%;
-        float: left;
-        width: 30%;
-      }
-      
-      #f3{
-        list-style-type: none;
-        text-align: left;
-        float: left;
-        width: 30%;
-      }
-      footer{
-        text-align: center;
-      }
-        ul{
-        list-style-type: none;
-        
-  }
-      #offer .container {
-        padding-top: 2%;
-        float: left;
-        width: 50%;
-        height: 30;
-        background-color:snow;
-         color:black;
-  
-      }
-      #offer1 .container {
-        padding-top: 2%;
-        float: left;
-        width: 100%;
-        height: 30;
-        background-color:snow;
-         color:black;
-      }
-      hr{
-        text-indent: 0%;
-      }
-    
-    h3{
-      text-align: justify;
-    }
-    #payment .row{
-      width: 100%;
-      
-      text-align: center;
-      
-   }
-   footer{
-    text-align: center;
-   }
-   #price
-   {
-    float:left;
-   }
-  
-  #categorey{
-    width : 80%;
-  
-  }
-  h2{
-    text-align: center;
-    color:#009
-  }
-  
-  #login{
-  
-    padding-top: 5%;
-  }
-  
-  #login .card{
-    background-color: lightblue;
-  }
-  
-  #shippingt{
-    width: 20%;
-  }
-  
-  #b1{
-    width: 10%;
-    text-align:end;
-  }
-  #b2{
-    text-align: center;
-    width: 10%;
-  }
-  #ab{
-    
-    float:center;
-  }
-  #jum{
-    color:#009;
-    float: center;
-    background-color: aliceblue;
-  }
-  
-  
+
+h4 {
+  color: blueviolet;
+}
+
+#age .col {
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  ;
+  color: darkmagenta;
+  background-color: antiquewhite;
+
+}
+
+
+#a1 {
+  background-color: darkmagenta;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: white;
+
+}
+
+#cart p {
+  text-align: right;
+
+}
+
+#a2 {
+  background-color: darkred;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: white;
+}
+
+#a3 {
+  background-color: green;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: darkmagenta;
+  color: white;
+}
+
+#a4 {
+  background-color: darkorange;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: darkmagenta;
+  color: white;
+}
+
+#a5 {
+  background-color: darkcyan;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: darkmagenta;
+  color: white;
+}
+
+#a6 {
+  background-color: darkgray;
+  border: 1PX NONE coral;
+  position: static;
+  float: left;
+  display: block;
+  word-spacing: normal;
+  width: 1000px;
+  color: darkmagenta;
+  color: white;
+}
+
+#age .row {
+  border: 3px none coral;
+  text-indent: 50px;
+  word-spacing: 30px;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+}
+
+#shop .col {
+  border: 3px none coral;
+  text-indent: 50px;
+  word-spacing: 30px;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+}
+
+#nav.container {
+  text-decoration: none;
+  height: 900%;
+  width: 1000%;
+  padding-top: 3%;
+  position: static;
+}
+
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#f1 {
+  list-style-type: none;
+  text-align: left;
+  float: left;
+}
+
+#f2 {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 10%;
+  float: left;
+  width: 30%;
+}
+
+#f3 {
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  width: 30%;
+}
+
+footer {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+hr {
+  text-indent: 0%;
+}
+
+h3 {
+  text-align: justify;
+}
+
+#payment .row {
+  width: 100%;
+
+  text-align: center;
+
+}
+
+#price {
+  float: left;
+}
+
+#categorey {
+  width: 80%;
+
+}
+
+h2 {
+  text-align: center;
+  color: #009
+}
+
+#login {
+
+  padding-top: 5%;
+}
+
+#login .card {
+  background-color: lightblue;
+}

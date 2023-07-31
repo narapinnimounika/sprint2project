@@ -13,7 +13,7 @@ newItemForm.addEventListener('submit', (event) => {
     // Select the inputs
     const newItemName = document.querySelector('#newItemName');
     const newItemDescription = document.querySelector('#newItemDescription');
-    const newItemImageUrl = document.querySelector('#newItemImageUrl');    
+    const newItemImageUrl = document.querySelector('#newItemImageUrl');
 
     // Get the values of the inputs
     const name = newItemName.value;
@@ -29,5 +29,6 @@ newItemForm.addEventListener('submit', (event) => {
 
     // Clear the form
     newItemName.value = '';
-    newItemDescription.value = '';    
+    newItemDescription.value = '';
+    newItemImageUrl.value = '';
 });
